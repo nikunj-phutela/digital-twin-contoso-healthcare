@@ -12,16 +12,6 @@ The digital twin service provided by Azure when paired along with the 3-D visual
 2. The mapping of each floor is carried out using 2-D CAD drawings which are further converted into Azure indoor maps using the Creator module.
 As mentioned earlier, the digital twin not only provides a visualization of the building, but also provides data to edge devices such as the drone and the conversational chatbot to create additional digital solutions. The edge devices with the help of the Azure indoor maps can help patients with their queries and also navigate around the facility and monitor all aspects such as COVID-19 guidelines, among others. All these aspects combined provides an end to end identical digital model of the physical hospital enabling the ability to test certain technologies and scenarios via simulations prior to implementing it in the real life facility.
 
-# Create the Azure Digital Twin 
-
-To create a new instance of the digital twin, follow the steps on this link: https://docs.microsoft.com/en-us/azure/digital-twins/how-to-set-up-instance-scripted
-
-To create the various sensors in the digital twin, follow this tutorial: https://microsoftlearning.github.io/AZ-220-Microsoft-Azure-IoT-Developer/Instructions/Labs/LAB_AK_15-remotely-monitor-and-control-devices.html#simplified-lab-conditions
-
-This creates the digital twin of the Contoso Healthcare facility.
-
-To visualise the data in a web application, follow this tutorial: https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-live-data-visualization-in-web-apps
-
 # Samples for Azure Digital Twins
 
 Azure Digital Twins is a developer platform for next-generation IoT solutions that lets you create, run, and manage digital representations of your business environment, securely and efficiently in the cloud. With Azure Digital Twins, creating live operational state representations is quick and cost-effective, and digital representations stay current with real-time data from IoT and other data sources.
