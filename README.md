@@ -251,6 +251,16 @@ git push azure master:master
 # Open browser to web site home page
 az webapp browse -g $resourceGroupName -n $webAppName
 ```
+## Steps to execute code:
+1. Clone the Git repository.
+2. Navigate to the demo scripts folder.
+3. Proceed to the 'Creation of Digital Twin' folder.
+4. Go to the Azure Portal, and upload the deploy.ps1 script, and run it using ./deploy.ps1. Fill in the desired values. The digital twin has been created.
+5. Move onto the Adtsample app folder, and fill in the placeholders in the serviceConfig.json file, and run the project. The client app is now setup.
+6. Head onto the Creation of sensors folder and then the setup folder. Upload the .azcli files onto the cloud shell, and fill in the placeholders.
+7. Once the deployment succeeds, navigate to the sensors folder, and fill in the placeholders, and type dotnet run in the terminal to see the device sending telemetry to the IOT Hub.
+8. Once the device is sending telemetry, use the cheesecavedeviceoperator folder to control the temperature in the digital twin, using dotnet run.
+9.To visualise the data in a web application, navigate to the 'Visualisation in a webapp' folder, and use npm install, followed by npm start, to see the visualisation at http://localhost:3000/.
 
 # Eventual impact:
 The eventual impact of the digital twin will be to gain a realistic simulation of the hospital and its associated entities, along with providing full control of the building to the user, while also providing navigation and other functionalities to edge devices such as the drone, and the conversational bot.
