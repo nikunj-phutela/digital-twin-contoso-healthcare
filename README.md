@@ -1,1 +1,1 @@
-# digital-twin-contoso-healthcare
+#Create the Azure Digital Twin 
