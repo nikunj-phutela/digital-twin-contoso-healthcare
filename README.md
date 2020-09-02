@@ -52,7 +52,7 @@ These samples were developed and expected to run in Visual Studio 2019. Ensure y
 2. Once the digital twin has been created, navigate to the AdtSampleApp folder, and open the solution in Visual Studio.
 3. Once the solution is open, create a copy of the serviceConfig.json.TEMPLATE file and name it serviceConfig.json, and fill in the placeholders for the ClientID, TenantID, and the service URL for the digital twin, noted whilst creating the digital twin.
 4. Once the placeholders have been filled, run the project, and see that it creates the room and the thermostats.
-5. Now move onto the Azure portal, and navigate to the 'Creation of sensors' folder in demo scripts.
+5. Now move onto the Azure portal, and navigate to the 'Creation of sensors' folder in demo scripts. And further move onto the setup folder.
 6. Run the sensor1.azcli file using ./sensor1.azcli, and fill in the placeholders.
 7. Once the sensors have been deployed, open sensor1 and navigate to cheesecavedevice1, fill in the placeholders, and use dotnet run to build the solution and see telemetry being sent to the IoT Hub.
 9. Now navigate to cheesecaveoperator1, and fill in the placeholders, and use dotnet run to build the solution, and manually control the temperature in the digital twin.
