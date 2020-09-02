@@ -15,7 +15,7 @@ There is need to monitor the data from sensors, such as the occupancy sensors, t
 ![ContosoHealthcare.png](images/ContosoHealthcare.png)
 
 
-# Suggested solution: 
+## Suggested solution: 
 The digital twin service provided by Azure when paired along with the 3-D visualization of the hospital helps build a digital twin of the facility. 
 1. A digital twin of the hospital premises is built, and the management of all sensors across the facility is done with the help of the IoT Hub. The sensor data available via the Azure IoT hub is paired with edge devices and can help provide an overview on aspects such as temperature, occupancy status and more.
 
@@ -46,7 +46,7 @@ The sample repo contains:
 #### For the building scenario:
 These samples were developed and expected to run in Visual Studio 2019. Ensure you have installed Visual Studio 2019 version **16.5.1XXX or later** on your development machine. If you have an older version installed already, you can open the Visual Studio Installer app on your machine and follow the prompts to update your installation.
 
-## Instructions
+#### Instructions
 
 1. The instructions for creating the digital twin are included in the [Azure Digital Twins documentation](https://docs.microsoft.com/azure/digital-twins/).
 2. Once the digital twin has been created, navigate to the AdtSampleApp folder, and open the solution in Visual Studio.
@@ -74,7 +74,7 @@ Instructions for deploying the sensors, and manual description of the steps to b
 
 This repo contains code for a web application, which can read temperature and humidity data from IoT Hub and show the real-time data in a line chart on the web page.
 
-## Browser compatiblity
+#### Browser compatiblity
 
 | Browser | Verified version |
 | --- | --- |
@@ -93,11 +93,11 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
 > You may follow the manual instructions below, or refer to the Azure CLI notes at the bottom to learn how to automate these steps.
 
-## Sign in to the Azure portal
+#### Sign in to the Azure portal
 
 Sign in to the [Azure portal](https://portal.azure.com/).
 
-## Create and configure your IoT hub
+#### Create and configure your IoT hub
 
 1. [Create](https://portal.azure.com/#create/Microsoft.IotHub), or [select an existing](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Devices%2FIotHubs), IoT hub.
     - For **Size and Scale**, you may use "F1: Free tier".
@@ -108,17 +108,17 @@ Sign in to the [Azure portal](https://portal.azure.com/).
 
 1. Select **IoT devices**, create a device, and copy device the connection string.
 
-## Send device data
+#### Send device data
 
 - For quickest results, simulate temperature data using the [Raspberry Pi Azure IoT Online Simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted). Paste in the **device connection string**, and select the **Run** button.
 
 - If you have a physical Raspberry Pi and BME280 sensor, you may measure and report real temperature and humidity values by following the [Connect Raspberry Pi to Azure IoT Hub (Node.js)](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-raspberry-pi-kit-node-get-started) tutorial.
 
-## Run the visualization website
+#### Run the visualization website
 
 Clone this repo. For a quick start, it is recommended to run the site locally, but you may also deploy it to Azure. Follow the corresponding option below.
 
-### Inspect the code
+#### Inspect the code
 
 Server.js is a service-side script that initializes the web socket and event hub wrapper class, and provides a callback to the event hub for incoming messages to broadcast them to the web socket.
 
@@ -128,7 +128,7 @@ Public/js/chart-device-data.js is a client-side script that listens on the web s
 
 Public/index.html handles the UI layout for the web page, and references the necessary scripts for client-side logic.
 
-### Run locally
+#### Run locally
 
 1. To pass parameters to the website, you may use environment variables or parameters.
     - Open a command prompt or PowerShell terminal and set the environment variables **IotHubConnectionString** and **EventHubConsumerGroup**.
@@ -157,7 +157,7 @@ Public/index.html handles the UI layout for the web page, and references the nec
 
 1. Open a browser to <http://localhost:3000>.
 
-### Use an Azure App Service
+#### Use an Azure App Service
 
 The approach here is to create a website in Azure, configure it to deploy using git where it hosts a remote repo, and push your local branch to that repo.
 
@@ -190,24 +190,24 @@ The approach here is to create a website in Azure, configure it to deploy using 
 
 1. After the push and deploy has finished, you can view the page to see the real-time data chart. Find the URL in **Overview** in the Essentials section.
 
-## Troubleshooting
+#### Troubleshooting
 
 If you encounter any issues with this sample, try the following steps. If you still encounter issues, drop us a note in the Issues tab.
 
-### Client issues
+#### Client issues
 
 - If a device does not appear in the list, or no graph is being drawn, ensure the sample application is running on your device.
 
 - In the browser, open the developer tools (in many browsers the F12 key will open it), and find the Console. Look for any warnings or errors printed here.
   - Also, you can debug client-side script in /js/chart-device-data.js.
 
-### Local website issues
+#### Local website issues
 
 - Watch the output in the window where node was launched for console output.
 
 - Debug the server code, namely server.js and /scripts/event-hub-reader.js.
 
-### Azure App Service issues
+#### Azure App Service issues
 
 - Open **Monitoring | Diagnostic logs**. Turn Application Logging (File System) to on, Level to Error, and then Save. Then open **Log stream**.
 
@@ -215,7 +215,7 @@ If you encounter any issues with this sample, try the following steps. If you st
 
 - If you see an error about not finding a package, you may have run the steps out of order. When the site is deployed (with `git push`) the app service runs `npm install` which runs based on the current version of node it has configured. If that is changed in configuration later, you'll need to make a meaningless change to the code and push again.
 
-## CLI documentation
+#### CLI documentation
 
 In order to automate the steps to deploy to Azure, consider reading the following documentation and using the corresponding commands.
 
@@ -263,5 +263,5 @@ git push azure master:master
 # Open browser to web site home page
 az webapp browse -g $resourceGroupName -n $webAppName
 ```
-# Eventual impact:
+## Eventual impact:
 The eventual impact of the digital twin will be to gain a realistic simulation of the hospital and its associated entities, along with providing full control of the building to the user, while also providing navigation and other functionalities to edge devices such as the drone, and the conversational bot.
