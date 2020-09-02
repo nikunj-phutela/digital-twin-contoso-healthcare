@@ -1,5 +1,7 @@
 # Hospital of the Future-Digital Twin
 
+![hospital.svg](images/hospital.svg)
+
 ## Table of contents
 * [Introduction](#introduction)
 * [Suggested solution](#suggested-solution)
