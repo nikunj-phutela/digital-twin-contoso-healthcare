@@ -3,13 +3,13 @@
 ![hospital.svg](images/hospital.svg)
 
 ## Table of contents
-* [Introduction](#introduction)
+* [About this project](#about-this-project)
 * [Suggested solution](#suggested-solution)
 * [Purpose](#purpose)
-* [Setup](#setup) 
+* [Setting up the project](#setting-up-the-project) 
 * [Eventual impact](#eventual-impact)
 
-## Introduction:
+## About this project:
 Digital Twins have become increasingly popular in the last few years because of their capabilities of influencing design build operations. Digital twin refers to a digital replica of assets in the building, the various rooms and sensors among other entities.  
 In our case, building a digital twin of the hospital will help create an environment, which can be controlled by the user and provides additional Insights for effective operation of edge devices. In this context, edge devices refer to the drone and the conversational chat bot.  
 There is need to monitor the data from sensors, such as the occupancy sensors, temperature sensors, energy consumption, etc. across the building to get an insight into the various factors affecting the facility, which can effectively be provided by the digital twin.
@@ -30,7 +30,7 @@ This project contains 2 samples for working with Azure Digital Twins:
 * A **building scenario** sample written in .NET. Can be used to set up and simulate a full end-to-end scenario with Azure Digital Twins
 * A **deployment script** written in PowerShell. Can be used to deploy and set [AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) permissions for an Azure Digital Twins instance
 
-## Setup
+## Setting up the project
  
 Get the samples by downloading this repository as a ZIP file to your machine.
 
