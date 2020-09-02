@@ -52,7 +52,7 @@ These samples were developed and expected to run in Visual Studio 2019. Ensure y
 6. Run the sensor1.azcli file using ./sensor1.azcli, and fill in the placeholders.
 7. Once the sensors have been deployed, open sensor1 and navigate to cheesecavedevice1, fill in the placeholders, and use dotnet run to build the solution and see telemetry being sent to the IoT Hub.
 9. Now navigate to cheesecaveoperator1, and fill in the placeholders, and use dotnet run to build the solution, and manually control the temperature in the digital twin.
-10. For visualisation in a web application, proceed (here)[#visualisation-in-a-webapp]. 
+10. For visualisation in a web application, proceed [here](#visualisation-in-a-webapp). 
 
 #### Building scenario:
 There are two possible sets of instructions for working with this sample.
