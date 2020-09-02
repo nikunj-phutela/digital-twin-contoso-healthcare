@@ -31,7 +31,7 @@ This project contains 2 samples for working with Azure Digital Twins:
 * A **deployment script** written in PowerShell. Can be used to deploy and set [AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) permissions for an Azure Digital Twins instance
 
 ## Setup
-
+ 
 Get the samples by downloading this repository as a ZIP file to your machine.
 
 ## Sample project contents
