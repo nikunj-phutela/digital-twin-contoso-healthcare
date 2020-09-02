@@ -1,4 +1,13 @@
 # Hospital of the Future-Digital Twin
+
+## Table of contents
+* [Introduction](#introduction)
+* [Suggested solution](#suggested-solution)
+* [Purpose](#purpose)
+* [Setup](#setup) 
+* [Eventual impact](#eventual-impact)
+
+### Introduction:
 Digital Twins have become increasingly popular in the last few years because of their capabilities of influencing design build operations. Digital twin refers to a digital replica of assets in the building, the various rooms and sensors among other entities.  
 In our case, building a digital twin of the hospital will help create an environment, which can be controlled by the user and provides additional Insights for effective operation of edge devices. In this context, edge devices refer to the drone and the conversational chat bot.  
 There is need to monitor the data from sensors, such as the occupancy sensors, temperature sensors, energy consumption, etc. across the building to get an insight into the various factors affecting the facility, which can effectively be provided by the digital twin.
@@ -12,12 +21,6 @@ The digital twin service provided by Azure when paired along with the 3-D visual
 
 2. The mapping of each floor is carried out using 2-D CAD drawings which are further converted into Azure indoor maps using the Creator module.
 As mentioned earlier, the digital twin not only provides a visualization of the building, but also provides data to edge devices such as the drone and the conversational chatbot to create additional digital solutions. The edge devices with the help of the Azure indoor maps can help patients with their queries and also navigate around the facility and monitor all aspects such as COVID-19 guidelines, among others. All these aspects combined provides an end to end identical digital model of the physical hospital enabling the ability to test certain technologies and scenarios via simulations prior to implementing it in the real life facility.
-
-# Samples for Azure Digital Twins
-
-Azure Digital Twins is a developer platform for next-generation IoT solutions that lets you create, run, and manage digital representations of your business environment, securely and efficiently in the cloud. With Azure Digital Twins, creating live operational state representations is quick and cost-effective, and digital representations stay current with real-time data from IoT and other data sources.
-
-For more information about Azure Digital Twins and its key concepts, see the [Azure Digital Twins documentation](https://docs.microsoft.com/azure/digital-twins/).
 
 ## Purpose
 
@@ -260,16 +263,5 @@ git push azure master:master
 # Open browser to web site home page
 az webapp browse -g $resourceGroupName -n $webAppName
 ```
-## Steps to execute code:
-1. Clone the Git repository.
-2. Navigate to the demo scripts folder.
-3. Proceed to the 'Creation of Digital Twin' folder.
-4. Go to the Azure Portal, and upload the deploy.ps1 script, and run it using ./deploy.ps1. Fill in the desired values. The digital twin has been created.
-5. Move onto the Adtsample app folder, and fill in the placeholders in the serviceConfig.json file, and run the project. The client app is now setup.
-6. Head onto the Creation of sensors folder and then the setup folder. Upload the .azcli files onto the cloud shell, and fill in the placeholders.
-7. Once the deployment succeeds, navigate to the sensors folder, and fill in the placeholders, and type dotnet run in the terminal to see the device sending telemetry to the IOT Hub.
-8. Once the device is sending telemetry, use the cheesecavedeviceoperator folder to control the temperature in the digital twin, using dotnet run.
-9.To visualise the data in a web application, navigate to the 'Visualisation in a webapp' folder, and use npm install, followed by npm start, to see the visualisation at http://localhost:3000/.
-
 # Eventual impact:
 The eventual impact of the digital twin will be to gain a realistic simulation of the hospital and its associated entities, along with providing full control of the building to the user, while also providing navigation and other functionalities to edge devices such as the drone, and the conversational bot.
