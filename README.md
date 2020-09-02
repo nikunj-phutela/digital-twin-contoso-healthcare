@@ -3,7 +3,7 @@ Digital Twins have become increasingly popular in the last few years because of 
 In our case, building a digital twin of the hospital will help create an environment, which can be controlled by the user and provides additional Insights for effective operation of edge devices. In this context, edge devices refer to the drone and the conversational chat bot.  
 There is need to monitor the data from sensors, such as the occupancy sensors, temperature sensors, energy consumption, etc. across the building to get an insight into the various factors affecting the facility, which can effectively be provided by the digital twin.
 
-![digital-twin-contoso-healthcare](Contoso Healthcare.png)
+![ContosoHealthcare.png](images/ContosoHealthcare.png)
 
 
 # Suggested solution: 
@@ -42,12 +42,17 @@ The sample repo contains:
 #### For the building scenario:
 These samples were developed and expected to run in Visual Studio 2019. Ensure you have installed Visual Studio 2019 version **16.5.1XXX or later** on your development machine. If you have an older version installed already, you can open the Visual Studio Installer app on your machine and follow the prompts to update your installation.
 
-#### For the deployment script:
-None
-
 ## Instructions
 
-The instructions for working with these samples are included in the [Azure Digital Twins documentation](https://docs.microsoft.com/azure/digital-twins/).
+1. The instructions for creating the digital twin are included in the [Azure Digital Twins documentation](https://docs.microsoft.com/azure/digital-twins/).
+2. Once the digital twin has been created, navigate to the AdtSampleApp folder, and open the solution in Visual Studio.
+3. Once the solution is open, create a copy of the serviceConfig.json.TEMPLATE file and name it serviceConfig.json, and fill in the placeholders for the ClientID, TenantID, and the service URL for the digital twin, noted whilst creating the digital twin.
+4. Once the placeholders have been filled, run the project, and see that it creates the room and the thermostats.
+5. Now move onto the Azure portal, and navigate to the 'Creation of sensors' folder in demo scripts.
+6. Run the sensor1.azcli file using ./sensor1.azcli, and fill in the placeholders.
+7. Once the sensors have been deployed, open sensor1 and navigate to cheesecavedevice1, fill in the placeholders, and use dotnet run to build the solution and see telemetry being sent to the IoT Hub.
+9. Now navigate to cheesecaveoperator1, and fill in the placeholders, and use dotnet run to build the solution, and manually control the temperature in the digital twin.
+10. For visualisation in a web application, proceed (here)[#visualisation-in-a-webapp]. 
 
 #### Building scenario:
 There are two possible sets of instructions for working with this sample.
@@ -56,6 +61,9 @@ There are two possible sets of instructions for working with this sample.
 
 #### Deployment script:
 Instructions for running the script, and manual description of the automated steps within the script, are found in [*How-to: Create an Azure Digital Twins instance*](https://docs.microsoft.com/azure/digital-twins/how-to-set-up-instance).
+
+#### Deploying the sensors:
+Instructions for deploying the sensors, and manual description of the steps to be performed, are found in [*Remotely Monitor and Control Devices with Azure IoT*](https://microsoftlearning.github.io/AZ-220-Microsoft-Azure-IoT-Developer/Instructions/Labs/LAB_AK_15-remotely-monitor-and-control-devices.html#simplified-lab-conditions)
 
 #### Visualisation in a webapp:
 # web-apps-node-iot-hub-data-visualization
