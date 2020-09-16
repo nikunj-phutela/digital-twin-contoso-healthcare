@@ -16,7 +16,6 @@ There is need to monitor the data from sensors, such as the occupancy sensors, t
 
 ![ContosoHealthcare.png](images/ContosoHealthcare.png)
 
-
 ## Suggested solution: 
 The digital twin service provided by Azure when paired along with the 3-D visualization of the hospital helps build a digital twin of the facility. 
 1. A digital twin of the hospital premises is built, and the management of all sensors across the facility is done with the help of the IoT Hub. The sensor data available via the Azure IoT hub is paired with edge devices and can help provide an overview on aspects such as temperature, occupancy status and more.
