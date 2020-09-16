@@ -24,14 +24,12 @@ The digital twin service provided by Azure when paired along with the 3-D visual
 2. The mapping of each floor is carried out using 2-D CAD drawings which are further converted into Azure indoor maps using the Creator module.
 As mentioned earlier, the digital twin not only provides a visualization of the building, but also provides data to edge devices such as the drone and the conversational chatbot to create additional digital solutions. The edge devices with the help of the Azure indoor maps can help patients with their queries and also navigate around the facility and monitor all aspects such as COVID-19 guidelines, among others. All these aspects combined provides an end to end identical digital model of the physical hospital enabling the ability to test certain technologies and scenarios via simulations prior to implementing it in the real life facility.
 
-## Purpose
+## Setting up the project
 
 This project contains 2 samples for working with Azure Digital Twins:
 * A **building scenario** sample written in .NET. Can be used to set up and simulate a full end-to-end scenario with Azure Digital Twins
-* A **deployment script** written in PowerShell. Can be used to deploy and set [AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) permissions for an Azure Digital Twins instance
+* A **deployment script** written in PowerShell. Can be used to deploy and set [AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) permissions for an Azure Digital Twins instance.
 
-## Setting up the project
- 
 Get the samples by downloading this repository as a ZIP file to your machine.
 
 ## Sample project contents
@@ -48,6 +46,18 @@ The sample repo contains:
 ### For the building scenario:
 These samples were developed and expected to run in Visual Studio 2019. Ensure you have installed Visual Studio 2019 version **16.5.1XXX or later** on your development machine. If you have an older version installed already, you can open the Visual Studio Installer app on your machine and follow the prompts to update your installation.
 
+The links to the official documentation are:
+### Building scenario:
+There are two possible sets of instructions for working with this sample. 
+* [*Tutorial: Explore the basics with a sample client app*](https://docs.microsoft.com/azure/digital-twins/tutorial-command-line-app)
+* [*Tutorial: Connect an end-to-end solution*](https://docs.microsoft.com/azure/digital-twins/tutorial-end-to-end)
+
+### Deployment script:
+Instructions for running the script, and manual description of the automated steps within the script, are found in [*How-to: Create an Azure Digital Twins instance*](https://docs.microsoft.com/azure/digital-twins/how-to-set-up-instance).
+
+### Deploying the sensors:
+Instructions for deploying the sensors, and manual description of the steps to be performed, are found in [*Remotely Monitor and Control Devices with Azure IoT*](https://microsoftlearning.github.io/AZ-220-Microsoft-Azure-IoT-Developer/Instructions/Labs/LAB_AK_15-remotely-monitor-and-control-devices.html#simplified-lab-conditions)
+
 ### Instructions
 
 1. The instructions for creating the digital twin are included in the [Azure Digital Twins documentation](https://docs.microsoft.com/azure/digital-twins/).
@@ -59,17 +69,6 @@ These samples were developed and expected to run in Visual Studio 2019. Ensure y
 7. Once the sensors have been deployed, open sensor1 and navigate to cheesecavedevice1, fill in the placeholders, and use dotnet run to build the solution and see telemetry being sent to the IoT Hub.
 9. Now navigate to cheesecaveoperator1, and fill in the placeholders, and use dotnet run to build the solution, and manually control the temperature in the digital twin.
 10. For visualisation in a web application, proceed [here](#visualisation-in-a-webapp). 
-
-### Building scenario:
-There are two possible sets of instructions for working with this sample.
-* [*Tutorial: Explore the basics with a sample client app*](https://docs.microsoft.com/azure/digital-twins/tutorial-command-line-app)
-* [*Tutorial: Connect an end-to-end solution*](https://docs.microsoft.com/azure/digital-twins/tutorial-end-to-end)
-
-### Deployment script:
-Instructions for running the script, and manual description of the automated steps within the script, are found in [*How-to: Create an Azure Digital Twins instance*](https://docs.microsoft.com/azure/digital-twins/how-to-set-up-instance).
-
-### Deploying the sensors:
-Instructions for deploying the sensors, and manual description of the steps to be performed, are found in [*Remotely Monitor and Control Devices with Azure IoT*](https://microsoftlearning.github.io/AZ-220-Microsoft-Azure-IoT-Developer/Instructions/Labs/LAB_AK_15-remotely-monitor-and-control-devices.html#simplified-lab-conditions)
 
 ### Visualisation in a webapp:
 ## web-apps-node-iot-hub-data-visualization
@@ -192,78 +191,5 @@ The approach here is to create a website in Azure, configure it to deploy using 
 
 1. After the push and deploy has finished, you can view the page to see the real-time data chart. Find the URL in **Overview** in the Essentials section.
 
-### Troubleshooting
-
-If you encounter any issues with this sample, try the following steps. If you still encounter issues, drop us a note in the Issues tab.
-
-### Client issues
-
-- If a device does not appear in the list, or no graph is being drawn, ensure the sample application is running on your device.
-
-- In the browser, open the developer tools (in many browsers the F12 key will open it), and find the Console. Look for any warnings or errors printed here.
-  - Also, you can debug client-side script in /js/chart-device-data.js.
-
-### Local website issues
-
-- Watch the output in the window where node was launched for console output.
-
-- Debug the server code, namely server.js and /scripts/event-hub-reader.js.
-
-### Azure App Service issues
-
-- Open **Monitoring | Diagnostic logs**. Turn Application Logging (File System) to on, Level to Error, and then Save. Then open **Log stream**.
-
-- Open **Development Tools | Console** and validate node and npm versions with `node -v` and `npm -v`.
-
-- If you see an error about not finding a package, you may have run the steps out of order. When the site is deployed (with `git push`) the app service runs `npm install` which runs based on the current version of node it has configured. If that is changed in configuration later, you'll need to make a meaningless change to the code and push again.
-
-### CLI documentation
-
-In order to automate the steps to deploy to Azure, consider reading the following documentation and using the corresponding commands.
-
-- [Azure login](https://docs.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest#az-login)
-- [Resource group create](https://docs.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#az-group-create)
-- [IoT Hub](https://docs.microsoft.com/en-us/cli/azure/iot?view=azure-cli-latest)
-- [ServicePlan](https://docs.microsoft.com/en-us/cli/azure/appservice/plan?view=azure-cli-latest)
-- [WebApp](https://docs.microsoft.com/en-us/cli/azure/webapp?view=azure-cli-latest)
-
-```az cli
-# Initialize these variables: $subscriptionId, $resourceGroupName, $location, $iotHubName, $consumerGroupName, $deviceId, $appServicePlanName, $webAppName, $iotHubConnectionString
-
-# Login and set the specified subscription
-az login
-az account set -s $subscriptionId
-
-# Create the resource group in the specified location
-az group create -n $resourceGroupName --location $location
-
-# Create an IoT Hub, create a consumer group, add a device, and get the device connection string
-az iot hub create -n $iotHubName -g $resourceGroupName --location $location --sku S1
-az iot hub consumer-group create -n $consumerGroupName --hub-name $iotHubName -g $resourceGroupName
-
-az iot hub show-connection-string -n $iotHubName -g $resourceGroupName
-
-az iot hub device-identity create -d $deviceId --hub-name $iotHubName -g $resourceGroupName
-az iot hub device-identity show-connection-string  -d $deviceId --hub-name $iotHubName -g $resourceGroupName
-
-# Create an app service plan and website, then configure website
-az appservice plan create -g $resourceGroupName -n $appServicePlanName --sku F1 --location $location
-az webapp create -n $webAppName -g $resourceGroupName --plan $appServicePlanName --runtime "node|10.6"
-az webapp update -n $webAppName -g $resourceGroupName --https-only true
-az webapp config set -n $webAppName -g $resourceGroupName --web-sockets-enabled true
-az webapp config appsettings set -n $webAppName -g $resourceGroupName --settings IotHubConnectionString=$iotHubConnectionString EventHubConsumerGroup=$consumerGroupName
-
-# Configure website for deployment
-az webapp deployment list-publishing-credentials -n $webAppName -g $resourceGroupName
-az webapp deployment source config-local-git -n $webAppName -g $resourceGroupName
-
-# Push code to website
-# Note: the URL is based on the previous two commands of output in the format of https://<web site user>:<password>@$webAppName.scm.azurewebsites.net/$webAppName.git
-git remote add azure <web app git URL>
-git push azure master:master
-
-# Open browser to web site home page
-az webapp browse -g $resourceGroupName -n $webAppName
-```
 ## Eventual impact:
 The eventual impact of the digital twin will be to gain a realistic simulation of the hospital and its associated entities, along with providing full control of the building to the user, while also providing navigation and other functionalities to edge devices such as the drone, and the conversational bot.
