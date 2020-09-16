@@ -58,7 +58,7 @@ Instructions for running the script, and manual description of the automated ste
 ### Deploying the sensors:
 Instructions for deploying the sensors, and manual description of the steps to be performed, are found in [*Remotely Monitor and Control Devices with Azure IoT*](https://microsoftlearning.github.io/AZ-220-Microsoft-Azure-IoT-Developer/Instructions/Labs/LAB_AK_15-remotely-monitor-and-control-devices.html#simplified-lab-conditions)
 
-### Instructions
+### Steps to run:
 
 1. The instructions for creating the digital twin are included in the [Azure Digital Twins documentation](https://docs.microsoft.com/azure/digital-twins/).
 2. Once the digital twin has been created, navigate to the AdtSampleApp folder, and open the solution in Visual Studio.
@@ -70,8 +70,7 @@ Instructions for deploying the sensors, and manual description of the steps to b
 9. Now navigate to cheesecaveoperator1, and fill in the placeholders, and use dotnet run to build the solution, and manually control the temperature in the digital twin.
 10. For visualisation in a web application, proceed [here](#visualisation-in-a-webapp). 
 
-### Visualisation in a webapp:
-## web-apps-node-iot-hub-data-visualization
+## Visualisation in a webapp:
 
 This repo contains code for a web application, which can read temperature and humidity data from IoT Hub and show the real-time data in a line chart on the web page.
 
