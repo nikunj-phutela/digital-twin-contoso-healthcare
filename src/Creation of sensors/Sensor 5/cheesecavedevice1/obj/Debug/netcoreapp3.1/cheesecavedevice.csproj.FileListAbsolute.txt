@@ -1,0 +1,89 @@
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\cheesecavedevice.exe
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\cheesecavedevice.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\cheesecavedevice.pdb
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\DotNetty.Buffers.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\DotNetty.Codecs.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\DotNetty.Codecs.Mqtt.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\DotNetty.Common.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\DotNetty.Handlers.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\DotNetty.Transport.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.Azure.Devices.Client.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.Azure.Devices.Shared.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.AssemblyInfo.cs
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.csproj.CopyComplete
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.dll
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.pdb
+C:\Users\Asus\Downloads\AZ-220-Microsoft-Azure-IoT-Developer-master\AZ-220-Microsoft-Azure-IoT-Developer-master\Allfiles\Labs\15-Remotely monitor and control devices with Azure IoT Hub\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.genruntimeconfig.cache
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\cheesecavedevice.exe
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\cheesecavedevice.deps.json
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\cheesecavedevice.runtimeconfig.json
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\cheesecavedevice.runtimeconfig.dev.json
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\cheesecavedevice.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\cheesecavedevice.pdb
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\DotNetty.Buffers.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\DotNetty.Codecs.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\DotNetty.Codecs.Mqtt.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\DotNetty.Common.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\DotNetty.Handlers.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\DotNetty.Transport.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.Azure.Devices.Client.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.Azure.Devices.Shared.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+C:\15\Starter\cheesecavedevice\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\15\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.csprojAssemblyReference.cache
+C:\15\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.AssemblyInfoInputs.cache
+C:\15\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.AssemblyInfo.cs
+C:\15\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.csproj.CoreCompileInputs.cache
+C:\15\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.csproj.CopyComplete
+C:\15\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.dll
+C:\15\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.pdb
+C:\15\Starter\cheesecavedevice\obj\Debug\netcoreapp3.1\cheesecavedevice.genruntimeconfig.cache
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\cheesecavedevice.exe
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\cheesecavedevice.deps.json
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\cheesecavedevice.runtimeconfig.json
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\cheesecavedevice.runtimeconfig.dev.json
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\cheesecavedevice.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\cheesecavedevice.pdb
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\DotNetty.Buffers.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\DotNetty.Codecs.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\DotNetty.Codecs.Mqtt.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\DotNetty.Common.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\DotNetty.Handlers.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\DotNetty.Transport.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\Microsoft.Azure.Devices.Client.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\Microsoft.Azure.Devices.Shared.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+C:\15\Starter\cheesecavedevice1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\15\Starter\cheesecavedevice1\obj\Debug\netcoreapp3.1\cheesecavedevice.csprojAssemblyReference.cache
+C:\15\Starter\cheesecavedevice1\obj\Debug\netcoreapp3.1\cheesecavedevice.AssemblyInfoInputs.cache
+C:\15\Starter\cheesecavedevice1\obj\Debug\netcoreapp3.1\cheesecavedevice.AssemblyInfo.cs
+C:\15\Starter\cheesecavedevice1\obj\Debug\netcoreapp3.1\cheesecavedevice.csproj.CoreCompileInputs.cache
+C:\15\Starter\cheesecavedevice1\obj\Debug\netcoreapp3.1\cheesecavedevice.csproj.CopyComplete
+C:\15\Starter\cheesecavedevice1\obj\Debug\netcoreapp3.1\cheesecavedevice.dll
+C:\15\Starter\cheesecavedevice1\obj\Debug\netcoreapp3.1\cheesecavedevice.pdb
+C:\15\Starter\cheesecavedevice1\obj\Debug\netcoreapp3.1\cheesecavedevice.genruntimeconfig.cache
