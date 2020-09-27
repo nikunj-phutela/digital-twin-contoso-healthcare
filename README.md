@@ -1,6 +1,18 @@
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
 # Hospital of the Future-Digital Twin
 
-![hospital.svg](images/hospital.svg)
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/hospital.svg" alt="Logo" width="80" height="80">
+  </a>
+  <h3 align="center">Digital Twin </h3>
+  <p align="center">
+    Provides the admin of the hospital complete control over all aspects of the hospital.
+  </p>
+</p>
 
 ## Table of contents
 * [About this project](#about-this-project)
