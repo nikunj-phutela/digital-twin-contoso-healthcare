@@ -1,5 +1,4 @@
-
-[![https://www.linkedin.com/in/nikunj-phutela/][linkedin-shield]][linkedin-url]
+[LinkedIn](https://www.linkedin.com/in/nikunj-phutela/).
 # Hospital of the Future-Digital Twin
 
 <!-- PROJECT LOGO -->
