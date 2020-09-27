@@ -31,7 +31,7 @@ This project contains 2 samples for working with Azure Digital Twins:
 
 Get the samples by downloading this repository as a ZIP file to your machine.
 
-## Sample project contents
+### Sample project contents
 The sample repo contains:
 
 | File/folder | Description |
