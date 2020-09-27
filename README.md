@@ -1,6 +1,6 @@
 # Hospital of the Future-Digital Twin
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/rohan-deshamudre-5790aa1b0/
+[linkedin-url]: https://www.linkedin.com/in/nikunj-phutela/
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
